@@ -10,7 +10,7 @@
 
 ## Instalación
 
-Clona este repositorio: `git clone https://github.com/JF_Design.git`
+Clona este repositorio: `git clone https://github.com/ferronmol/JF_Design.git`
 
 
 ## Autor
