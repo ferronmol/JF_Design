@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #37050c,
+    #5c0026,
+    #790053,
+    #7c0097,
+    #121beb
+  );
+  background-attachment: fixed;
+}
+.bgg {
+  animation: slide 2s ease-in-out infinite alternate;
+  background-image: linear-gradient(
+    90deg,
+    rgba(144, 229, 244, 0.689) 50%,
+    rgba(255, 255, 255, 0.662) 50%
+  );
+  bottom: -0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+.bg3 {
+  animation-duration: 5s;
+}
+/*****************************************/
+
+.inspiration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-left: 70px;
+  margin-right: 70px;
+  background: black;
+}
+.influences{
+  color: white;
+  margin:0;
+  font-family:'poppins';
+  font-size: 1.5rem;
+}
+.tw-followCard-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+ margin: 0 1rem;
+}
+
+.tw-followCard-info {
+  display: flex;
+  flex-direction: column;
+ color: #fff;
+}
+.tw-followCard-user{
+  opacity: 0.6;
+}
+
+.tw-followCard-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+}
+
+/***************************************/
+/**********NAVIGATION BAR*****************/
+#reading-progress-fill {
+  width: 51, 53%;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+.mx-2 {
+  margin-right: 0.5rem ;
+  margin-left: 0.5rem ;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+img {
+  vertical-align: middle;
+}
+.nav-brand {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.text-center{
+  text-align: center;
+  margin: 0 auto;
+}
+.adjust-block{
+  margin-bottom: 150px;
+}
+/*****************************************/

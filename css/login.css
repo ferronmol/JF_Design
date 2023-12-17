@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../assets/hills.jpg) no-repeat center center fixed;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  margin-top: 5rem;
+}
+.login-btn {
+  background-color: #09f;
+  border: none;
+}
+.login-btn:hover {
+  background-color: #09f;
+}
+a {
+  color: #09f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(251, 252, 246, 0.4);
+  box-shadow: 4px 4px 8px rgba(169, 190, 12, 0.1);
+  padding: 30px;
+  /****animation****/
+  transform: translateX(200%); /* out of layout */
+}
+
+.card--show {
+  animation: show 2s ease-in-out forwards;
+}
+.btn-deco{
+ color: #000;
+}
+.btn-deco:hover{
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+}
+@keyframes show {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes hide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-250%);
+    }
+  }
+  
+  .card--hide {
+    animation: hide 4s ease-in-out forwards;
+  }
+/* Media queries  */
+@media screen and (min-width: 600px) {
+  .card {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 800px;
+  }
+  
+}
